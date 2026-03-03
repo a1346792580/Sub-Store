@@ -8,5 +8,13 @@
       "source": "/api/(.*)",
       "destination": "/api/index.js"
     }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    }
   ]
 }

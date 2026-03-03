@@ -1,4 +1,6 @@
 {
+  "name": "sub-store-proxy",
+  "version": "1.0.0",
   "dependencies": {
     "sub-store": "latest"
   }

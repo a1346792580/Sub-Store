@@ -1,12 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/frontend/(.*)",
-      "destination": "https://sub-store.vercel.app/frontend/$1"
-    },
-    {
       "source": "/api/(.*)",
       "destination": "/api/index.js"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
